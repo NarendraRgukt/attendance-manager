@@ -1,0 +1,4 @@
+uuid,email,username,first_name,last_name,organization,role
+8f41e2ce-3989-4680-855d-c2fbf4f24023,user@example.com,string,string,string,Sample,admin
+2e3cb898-476a-4e99-8ba3-c3a6ff262ca1,user11@example.com,string11,string,string,BODDU NARE,member
+d1921ca0-d7db-497c-a039-f388b4f3971c,admin@gmail.com,admin,,,Sample,admin

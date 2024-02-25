@@ -1,0 +1,6 @@
+uuid,member,system_location,organization,image,date_time,latitude,longitude,scan_type,created_at,attendance
+5015c771-6ecb-4293-a4c7-858bae95df5e,user@example.com,string,Sample,media/nehru_XXyOxEQ.jpg,2023-08-29 05:02:34.583958+00:00,,,checkin,2023-08-29 05:02:26+00:00,
+8b4cacea-04e7-49ee-aedf-c4aceb06fb83,user@example.com,string,Sample,media/nehru_y86E7OV.jpg,2023-08-29 04:55:40.401286+00:00,,,checkin,2023-08-29 04:55:38+00:00,
+e1812421-1068-4483-a5a0-63cc47c6f7d7,user@example.com,string,Sample,media/nehru_FQanqiw.jpg,2023-08-28 14:12:37.229609+00:00,,,checkin,2023-08-28 14:12:33+00:00,
+91d16ecc-96ec-4460-a13b-ca7943c2bd1d,user@example.com,string,Sample,media/4334508.png,2023-08-28 14:14:41.879678+00:00,,,checkin,2023-08-25 14:14:39+00:00,
+8d7219e8-9c2e-4837-95fe-62e81cae2012,user@example.com,string,Sample,media/4334508_6RuFOSa.png,2023-08-29 09:30:39.526026+00:00,,,checkin,2023-08-15 09:30:37+00:00,

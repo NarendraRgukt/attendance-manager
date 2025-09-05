@@ -24,10 +24,18 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-      - name: Create weekly tag and commit, push to main
+      - name: Create weekly tag and commit, merge main, push to main
         run: |
           TAG="weekly-$(date +%Y-%m-%d-%H-%M)"
           git commit --allow-empty -m "Weekly tagging update [$TAG]"
-          git push origin HEAD:main       # push commit from dev → main
+
+          # Make sure main branch is up-to-date locally
+          git fetch origin main
+          git merge origin/main --no-edit
+
+          # Push merged commit to main
+          git push origin HEAD:main
+
+          # Create and push tag
           git tag "$TAG"
           git push origin "$TAG"
